@@ -29,7 +29,7 @@ import express from "./tech/express.png";
 import QueueOverflow from "./QueueOverflow.png";
 import FormBuilder from "./FormBuilder.png";
 import sifkrypt from "./sifkrypt.png";
-import stock from "./stock.png";
+import stock from "./Stock.png";
 import CancerClassification from "./CancerClassification.png";
 
 export {

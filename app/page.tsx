@@ -16,16 +16,16 @@ export default function Home() {
 
                 <Hero />
             </div>
-            <About />
-            <Experience />
-            <Tech />
-            <Projects />
             <div className="relative z-0">
+                <About />
+                <Experience />
+                <Tech />
+                <Projects />
                 <div className="sm:mt-40 mt-48">
+                    <Calendly />
                     <Contact />
                 </div>
                 <StarsCanvas />
-                <Calendly />
             </div>
             <Footer />
         </div>

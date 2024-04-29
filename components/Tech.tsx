@@ -10,7 +10,7 @@ const Tech = () => {
             <InfiniteMovingCards
                 items={technologies}
                 direction="right"
-                speed="normal"
+                speed="slow"
             />
         </div>
     );

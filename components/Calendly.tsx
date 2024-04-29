@@ -7,7 +7,7 @@ const Calendly = () => {
 
     useEffect(() => {
         function handleResize() {
-            const newWidth = window.innerWidth >= 778 ? "55%" : "100%";
+            const newWidth = window.innerWidth >= 778 ? "50%" : "100%";
             setWidgetWidth(newWidth);
         }
         handleResize();
