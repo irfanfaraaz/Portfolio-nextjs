@@ -11,8 +11,8 @@ const Stars = (props: any) => {
 
     useFrame((state, delta) => {
         if (ref.current) {
-            ref.current.rotation.x -= delta / 20;
-            ref.current.rotation.y -= delta / 15;
+            ref.current.rotation.x -= delta / 40;
+            ref.current.rotation.y -= delta / 30;
         }
     });
     return (
@@ -27,7 +27,7 @@ const Stars = (props: any) => {
                 <PointMaterial
                     transparent
                     color="#f272c8"
-                    size={0.002}
+                    size={0.001}
                     sizeAttenuation={true}
                     depthWrite={false}
                 />
@@ -35,6 +35,7 @@ const Stars = (props: any) => {
         </group>
     );
 };
+
 const StarsCanvas = () => {
     return (
         <div className="w-full h-auto absolute inset-0 z-[-1]">
