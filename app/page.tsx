@@ -21,7 +21,7 @@ export default function Home() {
             <Tech />
             <Projects />
             <div className="relative z-0">
-                <div className="mt-40">
+                <div className="sm:mt-40 mt-48">
                     <Contact />
                 </div>
                 <StarsCanvas />

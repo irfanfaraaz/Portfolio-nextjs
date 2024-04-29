@@ -22,8 +22,12 @@ import {
     python,
     tensorflow,
     express,
+    QueueOverflow,
+    FormBuilder,
+    sifkrypt,
+    stock,
+    CancerClassification,
 } from "../public/assets";
-
 export const navLinks = [
     {
         id: "about",
@@ -172,8 +176,8 @@ const projects = [
             },
         ],
         source_code_link: "https://github.com/irfanfaraaz/QueueOverflow",
-        deployed_link: "https://github.com/irfanfaraaz/QueueOverflow",
-        icon: logo,
+        deployed_link: "https://queue-overflow.vercel.app/",
+        icon: QueueOverflow,
         iconBg: "#E6DEDD",
     },
     {
@@ -196,7 +200,7 @@ const projects = [
         ],
         source_code_link: "https://github.com/irfanfaraaz/FormBuilder",
         deployed_link: "https://formbuilder-sif.vercel.app/",
-        icon: logo3,
+        icon: FormBuilder,
         iconBg: "#E6DEDD",
     },
     // {
@@ -241,7 +245,7 @@ const projects = [
         ],
         source_code_link: "https://github.com/irfanfaraaz/sifKrypt",
         deployed_link: "https://sifkrypt.netlify.app/",
-        icon: logo3,
+        icon: sifkrypt,
         iconBg: "#E6DEDD",
     },
     // {
@@ -285,7 +289,7 @@ const projects = [
             },
         ],
         source_code_link: "https://github.com/irfanfaraaz/Stock_prediction",
-        icon: logo,
+        icon: stock,
         iconBg: "#E6DEDD",
     },
     {
@@ -308,7 +312,7 @@ const projects = [
         ],
         source_code_link:
             "https://github.com/irfanfaraaz/Cancer-Classification_Model",
-        icon: logo3,
+        icon: CancerClassification,
         iconBg: "#E6DEDD",
     },
     // {

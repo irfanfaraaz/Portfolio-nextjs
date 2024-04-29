@@ -1,6 +1,6 @@
 import logo from "./logo-color.svg";
-import logo2 from "./logo-black.png"
-import logo3 from "./logo-white.png"
+import logo2 from "./logo-black.png";
+import logo3 from "./logo-white.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,35 +26,43 @@ import cpp from "./tech/c++.png";
 import python from "./tech/python.png";
 import tensorflow from "./tech/tensorflow.png";
 import express from "./tech/express.png";
-
-
+import QueueOverflow from "./QueueOverflow.png";
+import FormBuilder from "./FormBuilder.png";
+import sifkrypt from "./sifkrypt.png";
+import stock from "./stock.png";
+import CancerClassification from "./CancerClassification.png";
 
 export {
-  logo,
-  logo2,
-  logo3,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  cpp,
-  python,
-  tensorflow,
-  express  
+    logo,
+    logo2,
+    logo3,
+    backend,
+    creator,
+    mobile,
+    web,
+    github,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    nodejs,
+    reactjs,
+    redux,
+    tailwind,
+    typescript,
+    threejs,
+    cpp,
+    python,
+    tensorflow,
+    express,
+    QueueOverflow,
+    FormBuilder,
+    sifkrypt,
+    stock,
+    CancerClassification,
 };
