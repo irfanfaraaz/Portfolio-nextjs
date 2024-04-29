@@ -41,7 +41,7 @@ const tabs = projects.map((project, index) => ({
                     {project.tags.map((tag: any) => (
                         <p
                             key={`${project.name}-${tag.name}`}
-                            className={`text-[14px]  ${tag.color}`}
+                            className={`text-[14px]  blue-text-gradient`}
                         >
                             #{tag.name}
                         </p>

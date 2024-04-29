@@ -4,7 +4,6 @@ import { logo, menu } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { Linkedin, GitHub, Instagram } from "react-feather";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -51,7 +50,7 @@ const Navbar = () => {
                     </p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
-                    <li>
+                    {/* <li>
                         <a
                             href="https://www.linkedin.com/in/syed-irfan-faraz-b95b34227/"
                             target="_blank"
@@ -79,7 +78,7 @@ const Navbar = () => {
                         >
                             <Instagram size={20} />
                         </a>
-                    </li>
+                    </li> */}
                     {navLinks.map((Link) => (
                         <li
                             key={Link.id}
@@ -121,7 +120,7 @@ const Navbar = () => {
                         } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
                     >
                         <ul className="list-none flex  justify-end items-start flex-col gap-4">
-                            <li
+                            {/* <li
                                 onClick={() => setToggle(!toggle)}
                                 onKeyDown={(event) => {
                                     if (event.key === "Enter") {
@@ -170,7 +169,7 @@ const Navbar = () => {
                                 >
                                     <Instagram size={20} />
                                 </a>
-                            </li>
+                            </li> */}
                             {navLinks.map((Link) => (
                                 <li
                                     key={Link.id}
