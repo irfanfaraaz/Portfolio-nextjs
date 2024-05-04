@@ -9,7 +9,7 @@ const Tech = () => {
         <div className="mt-20 flex flex-row flex-wrap justify-center gap-10">
             <InfiniteMovingCards
                 items={technologies}
-                direction="right"
+                direction="left"
                 speed="slow"
             />
         </div>
